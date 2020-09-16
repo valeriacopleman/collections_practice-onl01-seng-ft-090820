@@ -54,7 +54,9 @@ end
 def add_s(array)
    
   array.collect do |words|
-    next if (words[1]) words.insert(-1, "s")
+    next if (words[1]) 
+  else
+    words.insert(-1, "s")
   end 
  array
 end 
