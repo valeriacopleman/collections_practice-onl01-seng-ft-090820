@@ -53,7 +53,7 @@ end
 
 def add_s(array)
    
-  array.each_with_index.collect do |words, index|
+  array.each_with_index.collect do |words, index.reject[2]|
    words.insert(-1, "s")
   end 
  array
